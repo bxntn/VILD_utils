@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!utils
+!utils/**
+!prelabels.py
+!sampling.py
+!requirements.txt
+!environment.yml
+!README.md
+!Pipeline_Yolo.ipynb
+# etc...

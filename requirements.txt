@@ -1,0 +1,4 @@
+easydict
+matplotlib
+opencv-python
+scipy
