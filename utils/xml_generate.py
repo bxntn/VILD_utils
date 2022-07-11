@@ -7,7 +7,7 @@ import xml.etree.cElementTree as ET
 
 def inference2xml(root_dir,image_path,label,bbox,height,width):
     root = ET.Element("annotation")
-    filename = image_path.split("\\")[-1]
+    filename = image_path.split("/")[-1]
     ET.SubElement(root, "filename").text = filename
 
     size = ET.SubElement(root, "size")
